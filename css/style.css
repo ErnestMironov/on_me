@@ -1,0 +1,480 @@
+body{
+	 font-family: 'Circe';
+	 margin: 0;	
+	 padding: 0;	
+}
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+@font-face{
+
+font-family: 'Circe';
+
+src: url('fonts/Circe-Regular.eot');
+
+src: url('fonts/Circe-Regular.woff') format('woff'),
+
+url('fonts/Circe-Regular.ttf') format('truetype');
+
+
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'Circe';
+
+src: url('fonts/Circe-Light.eot');
+
+src: url('fonts/Circe-Light.woff') format('woff'),
+
+url('fonts/Circe-Light.ttf') format('truetype');
+
+
+
+font-weight: light;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'Circe';
+
+src: url('fonts/Circe-Bold.eot');
+
+src: url('fonts/Circe-Bold.woff') format('woff'),
+
+url('fonts/Circe-Bold.ttf') format('truetype');
+
+
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+.sotrud_header{
+	height: 97px;
+	width: 100%;
+	background-color: #0a0a0a;
+}
+.sotrud_header_btn{
+	margin-right: 26px;
+	margin-top: 28.5px;
+	width: 181px;
+	height: 40px;
+    border: 2px solid #ff3b23;
+    background-color: #0a0a0a;
+	-webkit-border-radius: 44px;
+	 -moz-border-radius: 44px;
+	 -ms-border-radius: 44px;
+	 -o-border-radius: 44px;
+	 border-radius: 44px; 
+}
+.sotrud_header_btn:hover {
+    background-color: #ff3b23 !important;
+}
+.sotrud_header_btn>a{
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+}
+.sotrud_header_logo{
+	width: 200px;
+	margin-left: 26px;
+}
+.opt-buy{
+	color: #030303;
+	min-height: 550px;
+	height: 90vh;
+	background-image: url(../images/opt-buy.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.opt-buy_header{
+	padding-top: 160px;
+	font-size: 64px;
+	font-weight: 500;
+	margin-top: 20%;
+}
+.opt-buy_text{
+	color: #000000;
+	font-size: 24px;
+    line-height: 1.3;
+    font-weight: 500;
+    height: 186px;
+}
+.opt-buy_btn{
+	width: 355px;
+	height: 60px;
+	color: #ffffff;
+    font-size: 21px;
+    line-height: 1.55;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 44px;
+    background-color: #ff3b23;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.opt-buy_btn:hover {
+    background-color: #db2d15;
+}
+
+.about{
+	text-align: center;
+	padding-bottom: 120px!important;
+	padding-top: 120px;
+    padding-bottom: 0px;
+    background-color: #dcf9a4;
+    font-size: 22px;
+    color: #030303;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+}
+.terms{
+	padding-top: 90px;
+	background-color: #f9fbfc;
+	padding-bottom: 90px;
+}
+.terms_header{
+	text-align: center;
+    color: #333333;
+    font-size: 42px;
+    line-height: 1.23;
+    display: block;
+    font-weight: 700;
+}
+.terms_text{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 22px;
+    font-weight: 300;
+    color: #333333
+}
+.terms_blocks{
+	margin-top: 30px;
+}
+.terms_block{
+	margin-top: 10%;
+}
+.terms_block_ico{
+	width: 80px;
+}
+.terms_block_text{
+	
+	display: block;
+	font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+}
+.terms_btn{
+	margin-top: 10%;
+	width: 294px;
+	height: 60px;
+	color: #ffffff;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 44px;
+    background-color: #ff3b23;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.terms_btn:hover {
+    background-color: #db2d15;
+}
+.market{
+	padding-top: 90px;
+    padding-bottom: 90px;
+}
+.market_img{
+	min-width: 335px;
+	width: 100%;
+}
+.market_line{
+	margin-top: 12%;
+	background-color: #000000;
+    opacity: 0.2;
+    height: 1px;
+}
+.product{
+    padding-bottom: 90px;
+}
+.product_img{
+
+	width: 100%;
+}
+.product_text{
+	text-align: center;
+	font-size: 22px;
+    color: #333333;
+    font-weight: 700;
+    text-decoration: none;
+}
+.product_ref:hover, .product_ref:active, .product_ref:focus{
+	text-decoration: none;
+}
+.princips{
+	text-align: center;
+	padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f9fbfc;
+}
+.princips_img{
+	margin-top: 105px;
+	margin-bottom: 25px;
+	width: 100px;
+}
+.princips_text{
+	font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 20px;
+}
+.sotrud_contacts{
+	margin-top: 90px;
+	margin-bottom: 105px;
+}
+.sotrud_contacts_header{
+	cursor: pointer;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 44px;
+}
+.sotrud_contacts_header_text{
+	
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+.sotrud_contacts_form_input{
+	margin-top: 25px;
+	height: 60px;
+	color: #0a0a0a;
+    border: 1px solid #c2c0c0;
+    background-color: #f9fbfc;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    -ms-border-radius: 44px;
+    -o-border-radius: 44px;
+    border-radius: 44px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 360px;
+    outline: none;
+    -webkit-appearance: none;
+}
+.sotrud_contacts_btn{
+	color: #ffffff;
+    background-color: #eb2f2f;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    -ms-border-radius: 44px;
+    -o-border-radius: 44px;
+    border-radius: 44px;
+    text-align: center;
+    height: 60px;
+    border: 0 none;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    -webkit-appearance: none;
+    font-weight: 700;
+    white-space: nowrap;
+	outline: none;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.sotrud_contacts_text{
+	margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.55;
+    font-weight: 300;
+    color: #000;
+}
+.sotrud_contacts_text_policy, .sotrud_contacts_text_policy:hover, .sotrud_contacts_text_policy:focus, .sotrud_contacts_text_policy:active{
+	color: #ff8562;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sotrud_footer{ 
+	padding: 30px 40px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+
+ }
+ .sotrud_footer_text{
+ 	vertical-align: middle;
+ }
+ .sotrud_footer_socweb{
+ 	word-spacing: 5px;
+ }
+ .sotrud_footer_up, .sotrud_footer_up:hover, .sotrud_footer_up:active, .sotrud_footer_up:focus{
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
+ .sotrud_popup_header{
+ 	font-weight: 700;
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+ }
+.sotrud_popup_ref, .sotrud_popup_ref:hover, .sotrud_popup_ref:active, .sotrud_popup_ref:focus{
+	color: #ff8562;
+    text-decoration: none;
+}
+.sotrud_popup_close{
+	margin-top: 80px;
+	z-index: 9999999999999;
+}
+
+/* Bootstrap */
+
+.modal-content{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	padding: 40px 45px;
+	margin-top: 80px;
+	font-weight: 300;
+    color: #000;
+    font-size: 16px;
+    width: 110%;
+    margin-left: -5%;
+}
+
+
+
+/* Adaptive */
+
+@media screen and (max-width: 1199px){
+	.opt-buy_header{
+		margin-top: 300px;
+		font-size: 48px;
+	}
+	.opt-buy_text{
+		margin-top: 80px;
+		color: #000000;
+		font-weight: 500;
+	}
+	.terms_header{
+		font-size: 38px;
+	}
+	.market_img{
+		margin-top: 80px;
+	}
+	.sotrud_contacts_form_input{
+		width: 300px;
+	}
+	.sotrud_contacts_header{
+		font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width: 960px){
+	.opt-buy_header{
+		margin-top: 50px;
+	}
+	.opt-buy_btn{
+		margin-top: 100px;
+	}
+	.terms{
+		font-size: 30px;
+	}
+	.terms_block_text{
+		margin-left: -40px;
+	}
+	.terms_block_ico{
+		width: 50px;
+	}
+
+	.sotrud_contacts_form_input{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.opt-buy_header{
+		margin-top: -80px;
+	}
+	.opt-buy_text{
+		margin-top: 20px;
+		font-size: 20px;
+		width: 65%;
+	}
+	.opt-buy_btn{
+		margin-top: 110px;
+		height: 50px;
+		width: 56%;
+		font-size: 16px;
+	}
+	.terms_block_text{
+		margin-left: -35px;
+		font-size: 21px;
+
+	}
+	.terms_block_ico{
+		width: 45px;
+	}
+	.sotrud_popup_close{
+		color: black;
+		background-color: black;
+		margin-right: 40px;
+		margin-top: 100px;	
+	}
+	.princips_img{
+		margin-top: 40px;
+	}
+	.princips_text{
+		margin-top: -10px;
+	}
+	.sotrud_header_btn{
+		width: 140px;
+	}
+	.sotrud_header_button{
+		margin-top: -90px;
+		margin-right: -35px;
+	}
+	.sotrud_header_logo{
+		margin-left: -20px;
+	}
+	.sotrud_footer{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.sotrud_footer_text{
+		font-size: 13px;
+	}
+	.sotrud_footer_socweb_icon{
+		width: 25px;
+		margin-top: 10px;
+	}
+	
+}
