@@ -329,6 +329,7 @@ font-style: normal;
  }
  .sotrud_footer_text{
  	vertical-align: middle;
+ 	width: 100%;
  }
  .sotrud_footer_socweb{
  	word-spacing: 5px;
@@ -349,8 +350,12 @@ font-style: normal;
 }
 
 .policy_popup{
+	z-index: 99999;
+}
+.contacts_popup{
 	z-index: 9999;
 }
+
 /* Bootstrap */
 
 .modal-content{
@@ -375,7 +380,7 @@ font-style: normal;
 	right: 15px;
 }
 .contacts_popup_content{
-	width: 600px;
+	width: 1000px;
 }
 .contacts_popup_content_form{
 	margin: 0;
@@ -402,15 +407,15 @@ font-style: normal;
 		width: 300px;
 	}
 	.sotrud_contacts_header{
-		font-size: 20px;
+		font-size: 26px;
 	}
 	.contacts_popup_content{
-		width: 400px;
+		width: 1000px;
 	}
 }
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 988px){
 	.opt-buy_header{
 		margin-top: 50px;
 	}
@@ -429,6 +434,9 @@ font-style: normal;
 
 	.sotrud_contacts_form_input{
 		width: 80%;
+	}
+	.contacts_popup_content{
+		width: 660px;
 	}
 }
 
@@ -503,7 +511,6 @@ font-style: normal;
 	}
 	.sotrud_footer_text{
 		font-size: 13px;
-		width: 100%;
 	}
 	.sotrud_footer_socweb_icon{
 		width: 25px;
