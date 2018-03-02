@@ -1,7 +1,8 @@
 body{
 	 font-family: 'Circe';
 	 margin: 0;	
-	 padding: 0;	
+	 padding: 0;
+	 overflow-x: hidden;	
 }
 button:active, button:focus {
   outline: none;
@@ -346,10 +347,10 @@ font-style: normal;
 	color: #ff8562;
     text-decoration: none;
 }
-.sotrud_popup_close{
 
+.policy_popup{
+	z-index: 9999;
 }
-
 /* Bootstrap */
 
 .modal-content{
@@ -373,8 +374,12 @@ font-style: normal;
 	top: 15px;
 	right: 15px;
 }
-
-
+.contacts_popup_content{
+	width: 600px;
+}
+.contacts_popup_content_form{
+	margin: 0;
+}
 /* Adaptive */
 
 @media screen and (max-width: 1199px){
@@ -398,6 +403,9 @@ font-style: normal;
 	}
 	.sotrud_contacts_header{
 		font-size: 20px;
+	}
+	.contacts_popup_content{
+		width: 400px;
 	}
 }
 
@@ -425,9 +433,6 @@ font-style: normal;
 }
 
 @media screen and (max-width: 767px){
-	body{
-		overflow-x:hidden;
-	}
 	.opt-buy{
 		background-image: url(../images/opt-buy-opacity.jpg);
 		-webkit-background-size: 280%;
@@ -513,6 +518,9 @@ font-style: normal;
 		top: 15px;
 		right: 15px;
 	}
+	.contacts_popup_content{
+		width: 110%;
+	}
 }
 @media screen and (max-width: 360px){
 	.opt-buy{
@@ -550,6 +558,8 @@ font-style: normal;
 	.princips{
 		padding-top: 10px;
 	}
-
+	.contacts_popup_content{
+		width: 110%;
+	}
 
 }
