@@ -503,6 +503,7 @@ font-style: normal;
 	}
 	.sotrud_footer_text{
 		font-size: 13px;
+		width: 100%;
 	}
 	.sotrud_footer_socweb_icon{
 		width: 25px;
